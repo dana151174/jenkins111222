@@ -17,7 +17,7 @@ pipeline {
        
         stage('test') {
             steps {
-                echo 'test:git'
+                echo 'test'
             }
         }
         stage('deploy') {
